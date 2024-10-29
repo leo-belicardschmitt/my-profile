@@ -1,0 +1,131 @@
+/* Colors and fonts */
+
+body {
+	background-color: rgb(242 237 226);
+	color : #7d553a;
+}
+
+h1 {
+	color: #7d553a;
+	font-family: "Danfo", serif;
+  	font-weight: 600;
+  	letter-spacing: 3px;
+  	font-size: 105px;
+}
+
+h2 {
+	color: #61402a;
+	font-family: "Anton", sans-serif;
+  	font-weight: 600;
+  	letter-spacing: 3px;
+}
+
+p {
+color: #7d553a;
+	font-family: Times;
+  	font-weight: 100;
+  	font-size: 20px;
+}
+
+a {
+	text-decoration: underline;
+	color: #7d553a;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color : red;
+}
+
+#profile {
+	width: 300px;
+	border-radius: 50%;
+	display: block;
+  	margin: auto;
+}
+
+.text-center {
+	text-align: center;
+	text-justify: center;
+}
+
+
+/* Custom disign with class */
+
+.container {
+  padding: 10px;
+  border-radius: 6px 24px;
+  width: 800px;
+  margin: 40px auto;
+  border: 2px solid #7d553a;
+  padding: 20px;
+  border-radius: 6px 24px;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 550px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	margin: 40px;
+	background: #fff9f0;
+	font-size: 45px;
+	border: 2px solid;
+	border: 2px solid #7d553a;
+  padding: 10px;
+  border-radius: 6px 24px;
+}
+
+
+#disign {
+	background: #bab1a3;
+	margin: 30px;
+	border: 2px solid #7d553a;
+  padding: 10px;
+  border-radius: 6px 24px;
+}
+
+.btn-brown {
+	background-color: #fff9f0;
+	color: #7d553a;
+	padding: 15px 20px;
+	text-align: center;
+	text-justify: center;
+	padding: 10px;
+ 	border-radius: 6px 24px;
+}
+
+.btn-brown:hover {
+	background-color: #7d553a;
+	color: red;
+	transition: background-color 0.3s ease;
+	transition: color 0.3s ease;
+}
+
+.list-inline {
+	text-align: center;
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
